@@ -1,0 +1,25 @@
+body {
+    background-image: radial-gradient( #143250,#061A30);
+}
+
+.border-gradient{
+  
+   border-width:2px;
+ 
+
+   border-image: linear-gradient(-95deg,#1565A7, #061A30, #061A30,#061A30,#061A30, #1565A7)1;
+   border-radius: 1000px;
+   background-image: linear-gradient(to bottom, #143250,#061A30 );
+   border-radius: 7px;
+   overflow: hidden;
+   background-color: rgba(255, 255, 255, 1);
+}
+
+
+ 
+    hr {
+        height: 2px;
+        border:none;
+        // background-color: red;
+        background: linear-gradient(90deg, transparent, #061A30,#061A30,  #1565A7,#061A30,#061A30,transparent);
+    }
